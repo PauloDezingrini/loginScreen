@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "852845095593",
+    "firebase_url": "https://telalogin-a7d56.firebaseio.com",
+    "project_id": "telalogin-a7d56",
+    "storage_bucket": "telalogin-a7d56.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:852845095593:android:58742d3d704718c3bbd7b8",
+        "android_client_info": {
+          "package_name": "com.example.telalogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "852845095593-a9ltp0vroj5fs43i2dnnjfndm94st6mh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.telalogin",
+            "certificate_hash": "94a36eb14c7952186b0937373f5c98ca70795a19"
+          }
+        },
+        {
+          "client_id": "852845095593-ev648ge2pf22vsffej42qhmvlkf5i9f5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMnh4pzQ8SrzhE5mTAstjcZkox0B8VceQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "852845095593-ev648ge2pf22vsffej42qhmvlkf5i9f5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
