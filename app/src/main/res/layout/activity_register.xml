@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/nobugsicon"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="44dp"/>
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"/>
 
     <EditText
         android:id="@+id/registerEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/registerUsername"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"
-        android:layout_marginBottom="287dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:hint="Email" />
@@ -27,9 +26,8 @@
         android:id="@+id/registerUsername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="324dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:hint="Username"/>
@@ -38,10 +36,8 @@
         android:id="@+id/registerPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="26dp"
-        android:layout_marginBottom="242dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
         android:ems="10"
         android:inputType="textPassword"
         android:hint="Password" />
@@ -50,9 +46,8 @@
         android:id="@+id/confirmPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="187dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
         android:inputType="textPassword"
         android:ems="10"
         android:hint="Confirm Password" />
@@ -61,10 +56,9 @@
         android:id="@+id/registerButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="111dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
         android:text="Register" />
 
 
-</RelativeLayout>
+</LinearLayout>
