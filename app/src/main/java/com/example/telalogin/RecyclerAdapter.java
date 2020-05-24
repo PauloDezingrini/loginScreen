@@ -1,5 +1,6 @@
 package com.example.telalogin;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -30,10 +31,11 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
     @Override
     public void onBindViewHolder(@NonNull RecyclerAdapter.ViewHolder holder, int position) {
 
-        User list = userList.get(position);
+        User user = userList.get(position);
+        Log.i("laranja", user.toString());
 
-        holder.emailList.setText("Email: " + list.getEmail());
-        holder.usernameList.setText("Username : " + list.getName());
+       holder.emailList.setText("Email: " + user.getEmail()+"");
+       holder.usernameList.setText("Username : " + user.getName()+"");
     }
 
     @Override
@@ -51,6 +53,8 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
+            emailList = itemView.findViewById(R.id.emailList);
+            usernameList = itemView.findViewById(R.id.usernameList);
         }
     }
 }

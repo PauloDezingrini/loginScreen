@@ -107,7 +107,7 @@ public class RegisterActivity extends AppCompatActivity {
 
         String userID = mAuth.getCurrentUser().getUid();
 
-        User user = new User(name , email);
+        User user = new User(userID,name , email);
 
         myRef.child("user").child(userID).setValue(user);
     }
